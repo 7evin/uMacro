@@ -1,7 +1,7 @@
 # uMacro
 Simple, lightweight four-button USB HID keyboard emulator based on Digispark Pro
 
-Sends Alt-F1, Alt-F2, Alt-F3, and Alt-F5 when pins 9, 10, 11, and 12 (respectively) are brought low. This implementation uses a four button membrane keypad (https://www.adafruit.com/product/1332).
+An Arduino sketch that sends Alt-F1, Alt-F2, Alt-F3, and Alt-F5 when pins 9, 10, 11, and 12 (respectively) are brought low. This implementation uses a four button membrane keypad (https://www.adafruit.com/product/1332).
 
 Pins 9 and 10 fire once on press. Pins 11 and 12 will fire on press and again on release for push-to-mute. Use-case is starting/stopping OBS stream, muting/deafening specific audio/microphones. Keypad is adhered to the side of an HTC Vive and the Digispark Pro is plugged into the spare USB port on the headset. 
 
